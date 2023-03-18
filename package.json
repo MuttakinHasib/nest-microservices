@@ -2,7 +2,9 @@
   "name": "nest-microservices",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "dev": "nx run-many --target=serve --all=true --configuration=development"
+  },
   "private": true,
   "dependencies": {
     "@nestjs/common": "^9.0.0",
