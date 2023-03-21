@@ -14,6 +14,8 @@ import * as Joi from 'joi';
         JWT_SECRET_KEY: Joi.string().required(),
         SESSION_SECRET_KEY: Joi.string().required(),
         SESSION_NAME: Joi.string().required(),
+        RABBIT_MQ_URI: Joi.string().required(),
+        RABBIT_MQ_BILLING_QUEUE: Joi.string().required(),
       }),
     }),
   ],

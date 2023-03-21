@@ -24,4 +24,12 @@ export class ConfigurationService {
   get SESSION_NAME() {
     return this.configService.get<string>('SESSION_NAME');
   }
+
+  get RABBIT_MQ_URI() {
+    return this.configService.get<string>('RABBIT_MQ_URI');
+  }
+
+  get RABBIT_MQ_BILLING_QUEUE() {
+    return this.configService.get<string>('RABBIT_MQ_BILLING_QUEUE');
+  }
 }
